@@ -837,6 +837,19 @@ export default function App() {
                     className="space-y-3 md:space-y-4"
                   >
                     <input type="hidden" name="_form_id" value="d27fbdc0cf0dcc75e51cae0c0036a2b0" />
+                    
+                    <div>
+                      <label htmlFor="course_name" className="block text-sm font-bold text-slate-700 mb-1 md:mb-1.5">과정명</label>
+                      <input 
+                        type="text" 
+                        id="course_name" 
+                        name="과정명" 
+                        value="베스핀글로벌-멀티클라우드엔지니어" 
+                        readOnly 
+                        className="w-full px-4 py-2 md:py-2.5 rounded-xl border border-blue-200 bg-blue-50/50 text-blue-900 font-bold text-sm md:text-base outline-none cursor-default"
+                      />
+                    </div>
+
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
                       <div>
                         <label htmlFor="name" className="block text-sm font-bold text-slate-700 mb-1 md:mb-1.5">이름</label>
@@ -942,7 +955,7 @@ export default function App() {
                             </li>
                             <li className="flex gap-2">
                               <span className="font-bold text-slate-700 shrink-0 w-16">수집항목</span>
-                              <span>이름, 나이, 연락처, 교육목적, 문의내용</span>
+                              <span>과정명, 이름, 나이, 연락처, 교육목적, 문의내용</span>
                             </li>
                             <li className="flex gap-2">
                               <span className="font-bold text-slate-700 shrink-0 w-16">보유기간</span>
